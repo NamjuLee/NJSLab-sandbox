@@ -38,13 +38,13 @@ export class CanvasCore {
         this.canvas.onmousemove = (e: MouseEvent) => this.MouseMove(e);
     }
     MouseDown(e: MouseEvent){
-        console.log(e);
+        // console.log(e);
     }
     MouseUp(e: MouseEvent){
-        console.log(e);
+        // console.log(e);
     }
     MouseMove(e: MouseEvent){
-        console.log(e);
+        // console.log(e);
     }
     Init(){
         for(let i = 0; i < 100; ++i){
@@ -108,7 +108,7 @@ export const type2 = (ctx: CanvasRenderingContext2D, pos: number[] ) => {
             let yPos = length * Math.sin(t)
             ctx.lineTo(xPos, yPos);
         }
-        console.log(degree);
+        // console.log(degree);
     }
     ctx.closePath();
     ctx.stroke();
@@ -135,7 +135,7 @@ export const type1 = (ctx: CanvasRenderingContext2D, pos: number[] ) => {
         ctx.moveTo(xPos, yPos);
         ctx.moveTo(0, 0);
         ctx.lineTo(xPos, yPos);
-        console.log(degree);
+        // console.log(degree);
     }
     ctx.stroke();
     ctx.restore();

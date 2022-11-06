@@ -12,12 +12,12 @@ export class ThreeCore {
 
     boxMeshes: THREE.Mesh[] = [];
 
-    constructor(id: string){
+    constructor(id: string) {
         this.InitCanvas(id);
     }
-    InitCanvas(id: string){
+    InitCanvas(id: string) {
         const host = document.getElementById(id);
-        if (host){ this.host = host; }
+        if (host) { this.host = host; }
         
         this.scene = new THREE.Scene();
         this.scene.background =  new THREE.Color(230, 230, 230);
@@ -41,9 +41,9 @@ export class ThreeCore {
         this.host.appendChild(this.renderer.domElement);
         this.Init();
     }
-    Init(){
+    Init() {
 
-        for(let i = 0; i < 100; ++i){
+        for(let i = 0; i < 100; ++i) {
             const boxGeo = new THREE.BoxGeometry(10, 10, 10);
             const boxMesh =new THREE.Mesh(boxGeo);
             boxMesh.position.x = 50 - (Math.random() * 100); // new THREE.Vector3(50 - (Math.random() * 100), 50 - (Math.random() * 100), 50 - (Math.random() * 100));
@@ -57,25 +57,25 @@ export class ThreeCore {
         this.EventBind();
         this.Loop();
     }
-    EventBind(){
+    EventBind() {
         this.renderer.domElement.onmousedown = (e: MouseEvent) => this.MouseDown(e);
         this.renderer.domElement.onmouseup = (e: MouseEvent) => this.MouseUp(e);
         this.renderer.domElement.onmousemove = (e: MouseEvent) => this.MouseMove(e);
     }
-    MouseDown(e: MouseEvent){
-        console.log(e);
+    MouseDown(e: MouseEvent) {
+        // console.log(e);
     }
-    MouseUp(e: MouseEvent){
-        console.log(e);
+    MouseUp(e: MouseEvent) {
+        // console.log(e);
     }
-    MouseMove(e: MouseEvent){
-        console.log(e);
+    MouseMove(e: MouseEvent) {
+        // console.log(e);
     }
-    Loop(){
+    Loop() {
         requestAnimationFrame(() => { this.Loop(); });
         this.renderer.render(this.scene, this.camera);
   
-        for(let i = 0; i < 100; ++i){
+        for(let i = 0; i < 100; ++i) {
             this.boxMeshes[i].rotateX(this.boxMeshes[i]['value'] * 0.01);
             this.boxMeshes[i].rotateY(this.boxMeshes[i]['value'] * 0.05);
             this.boxMeshes[i].rotateZ(this.boxMeshes[i]['value'] * 0.09);
@@ -83,5 +83,6 @@ export class ThreeCore {
             // this.boxMesh[i].rotateZ(0.08);
         }
         this.t += 0.01;
+        console.log('rendering...')
     }
 }
