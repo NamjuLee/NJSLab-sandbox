@@ -7015,10 +7015,10 @@ neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-njscore@0.0.31:
-  version "0.0.31"
-  resolved "https://registry.yarnpkg.com/njscore/-/njscore-0.0.31.tgz#91e6f744dc02bb78c999b64a0ca9af2bbfa8a16f"
-  integrity sha512-uiSaTeU2Ct7OiUTZP6CljDhWpgK0iMnkz1uk25bNqhaWZNUxsXJhvIXC6kyPXUKKgjAoEy023Bt32N8m+LVIYw==
+njscore@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/njscore/-/njscore-0.1.0.tgz#da7275f694ed8fff01909491255c1c22de69435f"
+  integrity sha512-VULgLSD2yoizAejYRUjRVnuzy+KoZcwudmFyr8tYLCNlRxGDieLK9z6MGm1ithhzGFaj6d4NGqE4fYWlMHPB2g==
 
 no-case@^3.0.4:
   version "3.0.4"
@@ -9333,10 +9333,10 @@ three-orbitcontrols-ts@^0.1.2:
   dependencies:
     three "^0.83.0"
 
-three@^0.110.0:
-  version "0.110.0"
-  resolved "https://registry.yarnpkg.com/three/-/three-0.110.0.tgz#8719591de1336269113ee79f4268ba247b2324f8"
-  integrity sha512-wlurH8XBO9Sd5VIw8nBa+taLR20kqaI4e9FiuMh6tqK8eOS2q2R+ZoUyufbyDTVTHhs8GiTbv0r2CMLkwerFJg==
+three@^0.125.0:
+  version "0.125.0"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.125.0.tgz#19e922b9dc51ad0b706893aeee888de68e99850a"
+  integrity sha512-qL36qUGsPQ/Ofo/RZdXwHwM7A8wzUSAIyawtjIebJSPvounUQeneSqxI0aBY2iwKpseGy+RUtj3C5f/z4poyXw==
 
 three@^0.83.0:
   version "0.83.0"
