@@ -4952,9 +4952,9 @@ fast-glob@^3.2.12, fast-glob@^3.2.9:
     micromatch "^4.0.4"
 
 fast-json-patch@^3.0.0-1:
-  version "3.0.0-1"
-  resolved "https://registry.yarnpkg.com/fast-json-patch/-/fast-json-patch-3.0.0-1.tgz#4c68f2e7acfbab6d29d1719c44be51899c93dabb"
-  integrity sha512-6pdFb07cknxvPzCeLsFHStEy+MysPJPgZQ9LbQ/2O67unQF93SNqfdSqnPPl71YMHX+AD8gbl7iuoGFzHEdDuw==
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/fast-json-patch/-/fast-json-patch-3.1.1.tgz#85064ea1b1ebf97a3f7ad01e23f9337e72c66947"
+  integrity sha512-vf6IHUX2SBcA+5/+4883dsIjpBTqmfBjmYiWK1savxQmFk4JfBMLa7ynTYOs1Rolp/T1betJxHiGD3g1Mn8lUQ==
 
 fast-json-stable-stringify@*, fast-json-stable-stringify@^2.0.0, fast-json-stable-stringify@^2.1.0, fast-json-stable-stringify@~2.1.0:
   version "2.1.0"
@@ -7015,10 +7015,10 @@ neo-async@^2.6.2:
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-njscore@0.0.31:
-  version "0.0.31"
-  resolved "https://registry.yarnpkg.com/njscore/-/njscore-0.0.31.tgz#91e6f744dc02bb78c999b64a0ca9af2bbfa8a16f"
-  integrity sha512-uiSaTeU2Ct7OiUTZP6CljDhWpgK0iMnkz1uk25bNqhaWZNUxsXJhvIXC6kyPXUKKgjAoEy023Bt32N8m+LVIYw==
+njscore@^0.1.0:
+  version "0.1.31"
+  resolved "https://registry.yarnpkg.com/njscore/-/njscore-0.1.31.tgz#5ef0a570ad24ded9992af6c0b0a2413b0238e2d5"
+  integrity sha512-Yih0fX5SRB0/ojEMf6bIUXPTku6zALin7xwqXvygSI5zd/XLJLnPRf9ewXJAXxGT5Gpdmdn+ydh1Iau+umG+ig==
 
 no-case@^3.0.4:
   version "3.0.4"
